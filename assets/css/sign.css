@@ -1,0 +1,171 @@
+/* css for sign pages */
+input{
+    background: transparent ;
+}
+.sign-section{
+    /* min-height: 80vh; */
+    padding: 4rem 0;
+    background: url(../image/other/sign-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    text-align: center;
+}
+.sign-page-title{
+    color: #0E1133;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+.sign-sub-title{
+    color: #53545B;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+.sign-form{
+    border-radius: 0.625rem;
+    background: #FFF;
+    box-shadow: 0px 40px 80px 0px rgba(2, 2, 26, 0.14);
+    width: 40%;
+    margin:auto;
+    padding: 3rem;
+    text-align: left;
+}
+.sign-label-input-container{
+    margin: 1rem 0;
+    /* border: 1px solid royalblue; */
+
+}
+.sign-label-input-container label{
+    color: #0E1133;
+    font-family: Fira Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin: 0.5rem 0;
+}
+.sign-input-container{
+    padding: 1rem;
+    border-radius: 0.375rem;
+    background: #F6F6F7;
+    /* border: 1px solid red; */
+}
+.sign-label-input-container input:not([type='checkbox']) {
+    margin-left: 5px;
+    background: transparent;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+.col-4, .col-8{
+    padding: 0;
+}
+.sign-label-input-container .col-8 {
+    padding-left: 10px;
+}
+.sign-password-hint{
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #8E8C94;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+}
+button.sign-btn {
+    width: 100%;
+    border-radius: 0.25rem;
+    background: #2B4EFF;
+    padding: 1rem;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid transparent;
+}
+button.sign-btn:hover {
+    background: #ffffff;
+    color: #2B4EFF;
+    border: 1px solid #2B4EFF;
+}
+p.sign-bottom-text{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+p.or{
+    margin: 1rem auto;
+    text-align: center;
+    color: #8E8C94;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.sign-label-input-container .col-8 input {
+    width: 80%;
+}
+.col-6.forgot-password-link{
+    text-align: right;
+}
+
+
+.sign-input-container.otp input {
+    text-align: center;
+    margin: auto;
+}
+.sign-label-input-container .timer{
+    color: #2B4EFF;
+    font-size: 1.125rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .sign-form {
+        width: 50%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .sign-form {
+        width: 65%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .sign-form {
+        width: 85%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .sign-form {
+        width: 100%;
+        padding: 1rem;
+    }
+    .hide-mobile{
+        display: none;
+    }
+    .sign-label-input-container .col-8 input{
+        max-width: 38vw;
+    }
+}

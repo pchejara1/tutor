@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | M-Tutor </title>
+    <meta name="description" content="MTutor - Bringing education to you wherever you are">
+    <meta name="keywords" content="MTutor">
+
+    <!-- Favicons -->
+    <link href="assets/image/common/favicon.ico" rel="icon">
+    <link href="assets/image/common/favicon.ico" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+    <!--  Main CSS File -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+    <link rel="stylesheet" href="assets/css/head-foot.css">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header starts  -->
+    <!-- <div id="mobileNav" class="overlay" onclick="closeNav()">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <div class="left-container ">
+                <div class="pad-20"></div>
+                <div class="logo-container">
+                    <a href="index.html"><img src="assets/images/common/logo.png" alt="logo"></a>
+                </div>
+                <div class="pad-20"></div>
+                <div class="menu-item-container">
+                    <ul class="item-menu">
+                        <li><a href="index.html">
+                                <img src="assets/images/icons/right-arrow.svg" alt="">&ensp; Home
+                            </a>
+                        </li>
+                        <li><a href="take-a-test.html">
+                                <img src="assets/images/icons/right-arrow.svg" alt="">&ensp; Test
+                            </a>
+                        </li>
+                        <li><a href="question-bank.html">
+                                <img src="assets/images/icons/right-arrow.svg" alt="">&ensp; Question Bank
+                            </a>
+                        </li>
+                        <li><a href="settings.html">
+                                <img src="assets/images/icons/right-arrow.svg" alt="">&ensp; Settings
+                            </a>
+                        </li>
+                        <li><a href="contact-us.html">
+                                <img src="assets/images/icons/right-arrow.svg" alt="">&ensp; Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pad-10"></div>
+                <div class="btn-wrap">
+                    <div class="btn signin-btn" onclick="javascript:window.location.href='login.html'">Login</div>
+                    <div class="btn signup-btn" onclick="javascript:window.location.href='register.html'">Register</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <header class=" header-section head-for-mobile">
+        <div class="container">
+            <div class="mobile-header">
+                <a href="index.html"><img src="assets/images/common/logo.png" alt=""></a>
+                <img src="assets/images/icons/menu.svg" class="" onclick="openNav()">
+            </div>
+        </div>
+    </header> -->
+    
+    <header class="header-section head-for-desktop">
+        <div class="container">
+            <div class="row header-upper">
+                <div class="col-lg-2 logo-wrap">
+                    <a href="index.html">
+                        <img class="logo" src="assets/image/common/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-7 nav-menu-wrap">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="genesis.html">About</a></li>
+                        <li><a href="our-courses.html">Course</a></li>
+                        <li><a href="thought.html">Thoughts</a></li>
+                        <li><a href="careers.html">Career</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 profile-container">
+                    <a href="#">
+                        <img src="assets/image/common/profile.png" alt="">
+                        &emsp;
+                        <h2 class="head-user-name">Rahul</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="lower-header-section head-for-desktop">
+        <div class="container">
+            <div class="row">
+                <ul>
+                    <li><a href="courses.html"><img src="assets/image/common/course.svg" alt=""> Course</a></li>
+                    <li><a href="assessment.html"><img src="assets/image/common/assesment.svg" alt=""> Assesment</a></li>
+                    <li><a href="ask-a-doubt.html"><img src="assets/image/common/doubt.svg" alt=""> Ask a Doubt</a></li>
+                    <li><a href="question-bank.html"><img src="assets/image/common/question-bank.svg" alt=""> Question Bank</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Header ends -->
+
+    <!-- welcome section starts -->
+    <section class="welcome-section">
+        <div class="container">
+            <div class="welcome-upper-half">
+                <h3 class="hello-user">Hi Rahul &mdash;</h3>
+                <h1 class="welcome-text">Welcome again to Mtutor...</h1>
+            </div>
+            <div class="welcome-lower-half hide-mobile" style="display:none;">
+                <div class="features-upper-container">
+                    <div class="user-statistics-block">
+                        <img src="assets/image/dashboard/my-assessment.svg" alt="">
+                        <div class="statistics-container">
+                            <h2 class="statistics-number">025</h2>
+                            <h4 class="statistics-title">My Assessments</h4>
+                        </div>
+                    </div>
+                    <div class="user-statistics-block">
+                        <img src="assets/image/dashboard/my-notes.svg" alt="">
+                        <div class="statistics-container">
+                            <h2 class="statistics-number">024</h2>
+                            <h4 class="statistics-title">My Notes</h4>
+                        </div>
+                    </div>
+                    <div class="user-statistics-block">
+                        <img src="assets/image/dashboard/my-videos.svg" alt="">
+                        <div class="statistics-container">
+                            <h2 class="statistics-number">011</h2>
+                            <h4 class="statistics-title">My Videos</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-lower-container">
+                    <div class="user-statistics-block">
+                        <img src="assets/image/dashboard/my-doubt.svg" alt="">
+                        <div class="statistics-container">
+                            <h2 class="statistics-number">055</h2>
+                            <h4 class="statistics-title">My Doubts</h4>
+                        </div>
+                    </div>
+                    <div class="user-statistics-block">
+                        <img src="assets/image/dashboard/my-watch-history.svg" alt="">
+                        <div class="statistics-container">
+                            <h2 class="statistics-number">024</h2>
+                            <h4 class="statistics-title">My Watch History</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="welcome-lower-half">
+                <div class="features-upper-container">
+                    <div class="user-statistics-block">
+                        <img src="assets/image/dashboard/my-assessment.svg" alt="">
+                        <div class="statistics-container">
+                            <h2 class="statistics-number">025</h2>
+                            <h4 class="statistics-title">My Assessments</h4>
+                        </div>
+                    </div>
+                    <div class="user-statistics-block">
+                        <img src="assets/image/dashboard/my-notes.svg" alt="">
+                        <div class="statistics-container">
+                            <h2 class="statistics-number">024</h2>
+                            <h4 class="statistics-title">My Notes</h4>
+                        </div>
+                    </div>
+                    <div class="user-statistics-block">
+                        <img src="assets/image/dashboard/my-videos.svg" alt="">
+                        <div class="statistics-container">
+                            <h2 class="statistics-number">011</h2>
+                            <h4 class="statistics-title">My Videos</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-lower-container">
+                    <div class="user-statistics-block">
+                        <img src="assets/image/dashboard/my-doubt.svg" alt="">
+                        <div class="statistics-container">
+                            <h2 class="statistics-number">055</h2>
+                            <h4 class="statistics-title">My Doubts</h4>
+                        </div>
+                    </div>
+                    <div class="user-statistics-block">
+                        <img src="assets/image/dashboard/my-watch-history.svg" alt="">
+                        <div class="statistics-container">
+                            <h2 class="statistics-number">024</h2>
+                            <h4 class="statistics-title">My Watch History</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- welcome section ends -->
+    <div class="pad-50"></div>
+    <!-- courses section starts -->
+    <section class="course-section">
+        <div class="container">
+            <div class="title-container text-center">
+                <p class="superheading">Courses <img src="assets/image/dashboard/superhead-line.svg" alt="" class="superhead-line"></p>
+                <h1 class="section-title">Top Featured Courses</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="course-card">
+                        <img src="assets/image/dashboard/engineering.svg" alt="">
+                        <h4 class="course-title">Engineering</h4>
+                        <p class="course-description">Lorem ipsum dolor</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="course-card">
+                        <img src="assets/image/dashboard/applied-science.svg" alt="">
+                        <h4 class="course-title">Engineering</h4>
+                        <p class="course-description">Lorem ipsum dolor</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="course-card">
+                        <img src="assets/image/dashboard/skill-developemt.svg" alt="">
+                        <h4 class="course-title">Engineering</h4>
+                        <p class="course-description">Lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- courses section ends -->
+
+        <!-- popular subject section starts -->
+        <section class="subject-section">
+            <div class="container">
+                <div class="title-container text-center">
+                    <p class="superheading">Online Videos <img src="assets/image/dashboard/superhead-line.svg" alt="" class="superhead-line"></p>
+                    <h1 class="section-title">Popular Subjects</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="subject-card">
+                            <img class="subject-feature-img" src="assets/image/dashboard/agriculture.png" alt="">
+                            <div class="subject-detail-container">
+                                <h4 class="subject-title"><a href="#">Agriculture</a></h4>
+                                <a href="#"><img src="assets/image/dashboard/dashboard-arrow.svg" alt=""></a>
+                            </div>
+                            <div class="super-icon-container">
+                                <img src="assets/image/dashboard/agriculture-icon.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="subject-card">
+                            <img class="subject-feature-img" src="assets/image/dashboard/automobile.png" alt="">
+                            <div class="subject-detail-container">
+                                <h4 class="subject-title"><a href="#">Automobile</a></h4>
+                                <a href="#"><img src="assets/image/dashboard/dashboard-arrow.svg" alt=""></a>
+                            </div>
+                            <div class="super-icon-container">
+                                <a href="">
+                                    <img src="assets/image/dashboard/automobile-icon.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="subject-card">
+                            <img class="subject-feature-img" src="assets/image/dashboard/biology.png" alt="">
+                            <div class="subject-detail-container">
+                                <h4 class="subject-title"><a href="#">Biology</a></h4>
+                                <a href="#"><img src="assets/image/dashboard/dashboard-arrow.svg" alt=""></a>
+                            </div>
+                            <div class="super-icon-container">
+                                <img src="assets/image/dashboard/biology-icon.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="subject-card">
+                            <img class="subject-feature-img" src="assets/image/dashboard/chemistry.png" alt="">
+                            <div class="subject-detail-container">
+                                <h4 class="subject-title"><a href="#">Chemistry</a></h4>
+                                <a href="#"><img src="assets/image/dashboard/dashboard-arrow.svg" alt=""></a>
+                            </div>
+                            <div class="super-icon-container">
+                                <img src="assets/image/dashboard/chemistry-icon.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="subject-card">
+                            <img class="subject-feature-img" src="assets/image/dashboard/civil.png" alt="">
+                            <div class="subject-detail-container">
+                                <h4 class="subject-title"><a href="#">Civil Engineering</a></h4>
+                                <a href="#"><img src="assets/image/dashboard/dashboard-arrow.svg" alt=""></a>
+                            </div>
+                            <div class="super-icon-container">
+                                <img src="assets/image/dashboard/civil-icon.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="subject-card">
+                            <img class="subject-feature-img" src="assets/image/dashboard/electrical.png" alt="">
+                            <div class="subject-detail-container">
+                                <h4 class="subject-title"><a href="#">Electrical Engineering</a></h4>
+                                <a href="#"><img src="assets/image/dashboard/dashboard-arrow.svg" alt=""></a>
+                            </div>
+                            <div class="super-icon-container">
+                                <img src="assets/image/dashboard/electrical-icon.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- popular subject section ends -->
+
+    <!-- Question bank section starts -->
+    <section class="question-bank-section">
+        <div class="container">
+            <div class="title-container text-center">
+                <p class="superheading">Question Bank <img src="assets/image/dashboard/superhead-line.svg" alt="" class="superhead-line"></p>
+                <h1 class="section-title">Latest Question Bank</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="course-card">
+                        <a href="#">
+                            <div class="course-card-inner">
+                                <img src="assets/image/dashboard/latest-qb-icon-img.svg" alt="">
+                                <h4 class="course-title">Agriculture</h4>
+                                <p class="course-description">03 Courses</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="course-card">
+                        <a href="#">
+                            <div class="course-card-inner">
+                                <img src="assets/image/dashboard/latest-qb-icon-img.svg" alt="">
+                                <h4 class="course-title">Agriculture</h4>
+                                <p class="course-description">03 Courses</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="course-card">
+                        <a href="#">
+                            <div class="course-card-inner">
+                                <img src="assets/image/dashboard/latest-qb-icon-img.svg" alt="">
+                                <h4 class="course-title">Agriculture</h4>
+                                <p class="course-description">03 Courses</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="course-card">
+                        <a href="#">
+                            <div class="course-card-inner">
+                                <img src="assets/image/dashboard/latest-qb-icon-img.svg" alt="">
+                                <h4 class="course-title">Agriculture</h4>
+                                <p class="course-description">03 Courses</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="course-card">
+                        <a href="#">
+                            <div class="course-card-inner">
+                                <img src="assets/image/dashboard/latest-qb-icon-img.svg" alt="">
+                                <h4 class="course-title">Agriculture</h4>
+                                <p class="course-description">03 Courses</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="course-card">
+                        <a href="#">
+                            <div class="course-card-inner">
+                                <img src="assets/image/dashboard/latest-qb-icon-img.svg" alt="">
+                                <h4 class="course-title">Agriculture</h4>
+                                <p class="course-description">03 Courses</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pad-20"></div>
+    </section>
+    <!-- Question Bank section ends -->
+
+    <!-- popular exam section starts -->
+    <section class="popular-exams-section">
+        <div class="container">
+            <div class="title-container text-center">
+                <p class="superheading">Online Exam <img src="assets/image/dashboard/superhead-line.svg" alt="" class="superhead-line"></p>
+                <h1 class="section-title">Popular Exams</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="exam-card">
+                        <a href="#"><img src="assets/image/dashboard/exam-bio.png" alt=""></a>
+                        <div class="exam-card-inner">
+                            <ul class="exam-statstics-container">
+                                <li><img src="assets/image/icon/lesson.svg" alt="">&nbsp;05 Lessons</li>
+                                <li><img src="assets/image/icon/time-clock.svg" alt="">&nbsp;12h 30m</li>
+                                <li><img src="assets/image/icon/students.svg" alt="">&nbsp;Students</li>
+                            </ul>
+                            <h4 class="exam-title"><a href="#">How to Market Yourself as a
+                                Coach or Consultant</a></h4>
+                        <p class="exam-rating">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            &nbsp;(16)
+                        </p>
+                        </div>
+                        
+                        <a href="#" class="exam-subject-btn-fixed">Biology</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="exam-card">
+                        <a href="#"><img src="assets/image/dashboard/exam-physics.png" alt=""></a>
+                        <div class="exam-card-inner">
+                            <ul class="exam-statstics-container">
+                                <li><img src="assets/image/icon/lesson.svg" alt="">&nbsp;05 Lessons</li>
+                                <li><img src="assets/image/icon/time-clock.svg" alt="">&nbsp;12h 30m</li>
+                                <li><img src="assets/image/icon/students.svg" alt="">&nbsp;Students</li>
+                            </ul>
+                            <h4 class="exam-title"><a href="#">Become a Certified HTML, CSS, JavaScript Web Developer</a></h4>
+                        <p class="exam-rating">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            &nbsp;(16)
+                        </p>
+                        </div>
+                        
+                        <a href="#" class="exam-subject-btn-fixed">Physics</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="exam-card">
+                        <a href="#"><img src="assets/image/dashboard/exam-maths.png" alt=""></a>
+                        <div class="exam-card-inner">
+                            <ul class="exam-statstics-container">
+                                <li><img src="assets/image/icon/lesson.svg" alt="">&nbsp;05 Lessons</li>
+                                <li><img src="assets/image/icon/time-clock.svg" alt="">&nbsp;12h 30m</li>
+                                <li><img src="assets/image/icon/students.svg" alt="">&nbsp;Students</li>
+                            </ul>
+                            <h4 class="exam-title"><a href="#">A Beginer Adobe Illustrator for Graphic Design</a></h4>
+                        <p class="exam-rating">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            &nbsp;(16)
+                        </p>
+                        </div>
+                        
+                        <a href="#" class="exam-subject-btn-fixed">Maths</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="exam-card">
+                        <a href="#"><img src="assets/image/dashboard/exam-civil.png" alt=""></a>
+                        <div class="exam-card-inner">
+                            <ul class="exam-statstics-container">
+                                <li><img src="assets/image/icon/lesson.svg" alt="">&nbsp;05 Lessons</li>
+                                <li><img src="assets/image/icon/time-clock.svg" alt="">&nbsp;12h 30m</li>
+                                <li><img src="assets/image/icon/students.svg" alt="">&nbsp;Students</li>
+                            </ul>
+                            <h4 class="exam-title"><a href="#">Running a Web Development The Complete Guide</a></h4>
+                        <p class="exam-rating">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            &nbsp;(16)
+                        </p>
+                        </div>
+                        
+                        <a href="#" class="exam-subject-btn-fixed">Civil Engineering</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="exam-card">
+                        <a href="#"><img src="assets/image/dashboard/exam-ee.png" alt=""></a>
+                        <div class="exam-card-inner">
+                            <ul class="exam-statstics-container">
+                                <li><img src="assets/image/icon/lesson.svg" alt="">&nbsp;05 Lessons</li>
+                                <li><img src="assets/image/icon/time-clock.svg" alt="">&nbsp;12h 30m</li>
+                                <li><img src="assets/image/icon/students.svg" alt="">&nbsp;Students</li>
+                            </ul>
+                            <h4 class="exam-title"><a href="#">The Art of Seeing Photography training for the Artist in you</a></h4>
+                        <p class="exam-rating">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            &nbsp;(16)
+                        </p>
+                        </div>
+                        
+                        <a href="#" class="exam-subject-btn-fixed">Electrical Engineering</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="exam-card">
+                        <a href="#"><img src="assets/image/dashboard/exam-chemistry.png" alt=""></a>
+                        <div class="exam-card-inner">
+                            <ul class="exam-statstics-container">
+                                <li><img src="assets/image/icon/lesson.svg" alt="">&nbsp;05 Lessons</li>
+                                <li><img src="assets/image/icon/time-clock.svg" alt="">&nbsp;12h 30m</li>
+                                <li><img src="assets/image/icon/students.svg" alt="">&nbsp;Students</li>
+                            </ul>
+                            <h4 class="exam-title"><a href="#">The Complete Guide to the Global Capital Markets</a></h4>
+                        <p class="exam-rating">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            <img src="assets/image/icon/star.svg" alt="">
+                            &nbsp;(16)
+                        </p>
+                        </div>
+                        
+                        <a href="#" class="exam-subject-btn-fixed">Chemistry</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- popular exam section ends -->
+
+    <!-- latest question asked section starts -->
+    <section class="latest-asked-question-section">
+        <div class="container">
+            <div class="title-container text-center">
+                <p class="superheading">Ask A doubt<img src="assets/image/dashboard/superhead-line.svg" alt="" class="superhead-line"></p>
+                <h1 class="section-title">Your Latest asked Questions</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="question-asked-container">
+                        <div class="row">
+                            <div class="col-2 latest-question-date">Jan<span>20</span></div>
+                            <div class="col-10">
+                                <div class="latest-question-details-container">
+                                    <ul class="latest-question-admin-category-sivision">
+                                        <li><img src="assets/image/dashboard/admin-icon.svg" alt=""> By Admin</li>
+                                        &emsp;
+                                        <li><img src="assets/image/dashboard/catergory-icon.svg" alt=""> Air Trasnport</li>
+                                        
+                                    </ul>
+                                    <h2 class="latest-question-title">Clone sit amet, consec tetur elit</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 latest-question-date">Feb <span>26</span></div>
+                            <div class="col-10">
+                                <div class="latest-question-details-container">
+                                    <ul class="latest-question-admin-category-sivision">
+                                        <li><img src="assets/image/dashboard/admin-icon.svg" alt=""> By Admin</li>
+                                        &emsp;
+                                        <li><img src="assets/image/dashboard/catergory-icon.svg" alt=""> Air Trasnport</li>
+                                    </ul>
+                                    <h2 class="latest-question-title">Maecenas interdum lorem eleifend</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 latest-question-date">Jan <span>20</span></div>
+                            <div class="col-10">
+                                <div class="latest-question-details-container">
+                                    <ul class="latest-question-admin-category-sivision">
+                                        <li><img src="assets/image/dashboard/admin-icon.svg" alt=""> By Admin</li>
+                                        &emsp;
+                                        <li><img src="assets/image/dashboard/catergory-icon.svg" alt=""> Air Trasnport</li>
+                                    </ul>
+                                    <h2 class="latest-question-title">Nunc scelerisque tincidunt elit.</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 latest-question-right-half">
+                    <img src="assets/image/dashboard/latest-question-right-half-img.png" alt="" class="latest-question-right-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- latest question asked section ends -->
+
+
+
+
+
+
+
+
+    <hr>
+
+
+    <!-- footer section starts -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <a href="index.html"><img src="assets/image/common/footer-logo.svg" alt=""></a>
+                    <p class="footer-about">Our outcome-based digital tutorials are bent on to elevate learners lives and build a better society, that is why MTutor sprouted into the world of learning.</p>
+                    <div class="pad-20"></div>
+                    <ul class="social-links-container">
+                        <li><a href="#" target="_blank"><img src="assets/image/icon/facebook.svg" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="assets/image/icon/twitter.svg" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="assets/image/icon/whasatpp.svg" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="assets/image/icon/linkedin.svg" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="assets/image/icon/youtube.svg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h2 class="footer-title">Resources</h2>
+                    <ul class="footer-link-listing">
+                        <li><a href="genesis.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Refund</a></li>
+                        <li><a href="#">Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h2 class="footer-title">Courses</h2>
+                    <ul class="footer-link-listing">
+                        <li><a href="engineering.html">Engineering</a></li>
+                        <li><a href="#">Applied Science</a></li>
+                        <li><a href="#">Skill Development</a></li>
+                        <li><a href="#">Agriculture</a></li>
+                        <li><a href="#">MSchool</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h2 class="footer-title">Download Now</h2>
+                    <div class="download-btn-container">
+                        <a href="#"><img src="assets/image/common/play-store.svg" alt=""></a>
+                        <a href="#"><img src="assets/image/common/app-store.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="copyright-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7">
+                    <p class="copyright-text">Copyright © 2023 MTUTOR. All rights reserved.</p>
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <ul class="copyright-menu">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+
+
+
+
+
+    <!--  JS Files -->
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

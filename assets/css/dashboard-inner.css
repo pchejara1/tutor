@@ -1,0 +1,214 @@
+/* welcome section */
+
+.page-title-section {
+    padding: 4rem 0;
+    background: url(../image/dashboard/greeting-inner-bg.png);
+    background-color: #002147;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    align-items: center;
+    display: flex;
+}
+
+.welcome-section .welcome-upper-half {
+    color: #F4B929;
+    font-family: Poppins;
+}
+.page-name{
+    color: #F4B929;
+font-family: Fira Sans;
+font-size: 4.5rem;
+font-weight: 600;
+text-align: right;
+}
+
+.title-container .superheading {
+    color: #002147;
+    font-family: Fira Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.superhead-line {
+    position: absolute;
+    left: 43%;
+    right: 43%;
+    top: 10%;
+}
+
+.section-title {
+    color: #002147;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 2.875rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.subject-section {
+    padding: 2rem 0;
+}
+
+.subject-card {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 1.5rem;
+    border: 1px solid #F1F1F1;
+    border-radius: 0.4375rem;
+    position: relative;
+    /* justify-content: center;
+    margin: auto;
+    align-items: center; */
+}
+
+.subject-feature-img {
+    border-radius: 0.4375rem 0.4375rem 0 0;
+}
+
+.subject-detail-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.super-icon-container {
+    border-radius: 0.3125rem;
+    background: #FDC800;
+    width: fit-content;
+    padding: 1rem;
+    position: absolute;
+    top: -2.7rem;
+    left: 2rem;
+}
+
+.super-icon-container img {
+    border-radius: 50%;
+    box-shadow: 0px 15px 15px 0px rgba(21, 21, 21, 0.24);
+}
+
+.subject-title a {
+    color: #002147;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.72888rem;
+    /* 138.309% */
+}
+/* popular exam section design */
+.popular-exams-section {
+    padding: 4rem 0;
+    background-color: #f0f4f9;
+}
+
+.exam-card {
+    position: relative;
+    /* border: 1px solid red; */
+    margin: 1rem;
+    border-radius: 0.375rem;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+    /* display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center; */
+}
+
+.exam-card a img {
+    width: 100%;
+    border-radius: 0.375rem 0.375rem 0 0;
+}
+
+.exam-statstics-container {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-bottom: 10px
+}
+
+.exam-statstics-container li {
+    color: #002147;
+    font-size: 1rem;
+    font-weight: 400;
+    /* line-height: 1.75rem; */
+}
+
+.exam-card-inner {
+    padding: 1rem;
+}
+
+.exam-card .exam-title a {
+    color: #002147;
+    font-family: Fira Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.625rem;
+}
+
+.exam-rating {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.exam-subject-btn-fixed {
+    border-radius: 3.125rem;
+    background: #FDC800;
+    padding: 0.25rem 1rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    color: #002147;
+    font-family: Fira Sans;
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+.read-more-link a{
+    color: #002147;
+font-size: 1rem;
+font-weight: 500;
+}
+.view-all-link-container a{
+text-align: end;
+color: #072655;
+font-size: 1rem;
+font-weight: 500;
+}
+
+
+
+/* assessment page */
+.assessment-subject-section{
+    padding: 3rem 0;
+}
+.assesment-subject-card{
+    background: url(../image/dashboard/assessment-sub-bg.png);
+    padding: 3rem 1rem;
+    /* margin: auto; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    margin: 1rem;
+}
+.assessment-subject-name{
+    color: #000;
+font-family: Rubik;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.72888rem; /* 138.309% */
+}
+.take-a-test-btn{
+    border-radius: 0.25rem;
+background: #1363DF;
+color: white;
+}

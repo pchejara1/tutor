@@ -1,0 +1,412 @@
+/* dashboard page design here */
+
+/* welcome section */
+
+.welcome-section {
+    padding: 3rem 0;
+    background: url(../image/dashboard/greeting-bg.png);
+    background-color: #002147;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative
+}
+
+.welcome-section .welcome-upper-half {
+    color: var(--white);
+    font-family: Fira Sans;
+
+
+}
+
+.welcome-section .welcome-upper-half .hello-user {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.welcome-section .welcome-upper-half .welcome-text {
+    font-size: 3.875rem;
+    font-weight: 700;
+}
+
+.welcome-lower-half {
+    border-radius: 1.25rem;
+    color: #002147;
+    background: #FDC800;
+    padding: 2.5rem;
+    width: 80%;
+    margin: 2rem auto -11rem auto;
+}
+
+.features-upper-container,
+.features-lower-container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.user-statistics-block {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 33.33%;
+    margin: 20px;
+}
+
+.statistics-container {
+    margin-left: 1rem;
+}
+
+.statistics-number {
+    color: #002147;
+    font-family: Rubik;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.67263rem;
+}
+
+.statistics-title {
+    color: #002147;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.7rem;
+    margin-bottom: 0;
+}
+
+.course-section {
+    padding: 1rem 0;
+}
+
+.title-container .superheading {
+    color: #002147;
+    font-family: Fira Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.superhead-line {
+    position: absolute;
+    left: 43%;
+    right: 43%;
+    top: 10%;
+}
+
+.section-title {
+    color: #002147;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 2.875rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+
+
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-card .course-title {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color: #181818;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.course-card .course-description {
+    color: #565872;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+    /* 170% */
+}
+
+.subject-section {
+    padding: 2rem 0;
+}
+
+.subject-card {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 1.5rem;
+    border: 1px solid #F1F1F1;
+    border-radius: 0.4375rem;
+    position: relative;
+    /* justify-content: center;
+    margin: auto;
+    align-items: center; */
+}
+
+.subject-feature-img {
+    border-radius: 0.4375rem 0.4375rem 0 0;
+}
+
+.subject-detail-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.super-icon-container {
+    border-radius: 0.3125rem;
+    background: #FDC800;
+    width: fit-content;
+    padding: 1rem;
+    position: absolute;
+    top: -2.7rem;
+    left: 2rem;
+}
+
+.super-icon-container img {
+    border-radius: 50%;
+    box-shadow: 0px 15px 15px 0px rgba(21, 21, 21, 0.24);
+}
+
+.subject-title a {
+    color: #002147;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.72888rem;
+    /* 138.309% */
+}
+
+/* Question bank section */
+.question-bank-section {
+    padding: 2rem 0;
+}
+
+.question-bank-section .course-card {
+    background: url(../image/dashboard/latest-qb-bg.png);
+    margin: 1rem;
+    padding: 1.02rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.625rem;
+    box-shadow: 0px 0px 50px 10px rgba(95, 45, 237, 0.10);
+
+}
+
+.question-bank-section .course-card .course-card-inner {
+    border-radius: 1.25rem;
+    border: 1px solid #F48C06;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(5px);
+    padding: 0.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.course-card .course-description {
+    margin-bottom: 0;
+}
+
+
+/* popular exam section design */
+.popular-exams-section {
+    padding: 4rem 0;
+    background: url(../image/dashboard/popular-exam-bg.png);
+    background-size: contain;
+}
+
+.exam-card {
+    position: relative;
+    /* border: 1px solid red; */
+    margin: 1rem;
+    border-radius: 0.375rem;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+    /* display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center; */
+}
+
+.exam-card a img {
+    width: 100%;
+    border-radius: 0.375rem 0.375rem 0 0;
+}
+
+.exam-statstics-container {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-bottom: 10px
+}
+
+.exam-statstics-container li {
+    color: #002147;
+    font-size: 1rem;
+    font-weight: 400;
+    /* line-height: 1.75rem; */
+}
+
+.exam-card-inner {
+    padding: 1rem;
+}
+
+.exam-card .exam-title a {
+    color: #002147;
+    font-family: Fira Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.625rem;
+}
+
+.exam-rating {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.exam-subject-btn-fixed {
+    border-radius: 3.125rem;
+    background: #FDC800;
+    padding: 0.25rem 1rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    color: #002147;
+    font-family: Fira Sans;
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+
+
+/* latest question asked section */
+.latest-asked-question-section {
+    padding: 3rem 0;
+}
+
+.question-asked-container {
+    border-radius: 0.4375rem;
+    background: #002147;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
+    padding: 2rem 3rem;
+}
+
+.question-asked-container .row {
+    max-width: 85%;
+    padding: 2rem 0;
+    /* border: 1px solid red;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20); */
+}
+
+.question-asked-container .latest-question-date {
+    border-radius: 0.4375rem;
+    background: #FDC800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    text-transform: uppercase;
+}
+
+.question-asked-container .latest-question-date span {
+    color: #002147;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.latest-question-admin-category-sivision {
+    display: flex;
+    /* justify-content: space-between; */
+    color: white;
+    list-style-type: none;
+}
+
+.latest-question-admin-category-sivision li {
+    color: #FFF;
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+.latest-question-title {
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.67263rem;
+}
+
+.question-asked-container .row:not(:last-of-type) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.latest-question-right-half {
+    display: flex;
+    align-items: center;
+}
+
+img.latest-question-right-img {
+    margin-left: -4rem;
+}
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+   
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .hide-mobile{
+        display: none;
+    }
+    .welcome-section .welcome-upper-half .hello-user {
+        font-size: 1.25rem;
+    }
+    .welcome-section .welcome-upper-half .welcome-text {
+        font-size: 2.5rem;
+    }
+    .welcome-lower-half {
+        padding: 0.5rem;
+        width: 90%;
+        margin: 1rem auto -12rem auto;
+    }
+}

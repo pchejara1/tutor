@@ -1,0 +1,182 @@
+/* common css color and space  */
+:root{
+    --dark-blue: #072655;
+    --yellow: #F48C06;
+    --light-blue: #0085F2;
+    --text: #696984;
+    --white: #ffffff;
+    --black: #000000;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p, ul li{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 180%; /* 2.025rem */
+    letter-spacing: 0.0225rem;
+}
+/* .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+p{
+    font-size: 1rem;
+    margin-bottom: 0;
+} */
+
+/* paddings */
+.pad-5 {
+    padding: 5px 0;
+}
+.pad-10 {
+    padding: 10px 0;
+}
+.pad-15 {
+    padding: 15px 0;
+}
+.pad-20 {
+    padding: 20px 0;
+}
+.pad-25 {
+    padding: 25px 0;
+}
+.pad-30 {
+    padding: 3rem 0;
+}
+.pad-40 {
+    padding: 4rem 0;
+}
+.pad-50 {
+    padding: 5rem 0;
+}
+.pad-70 {
+    padding: 7rem 0;
+}
+
+/* other common design css */
+a {
+    text-decoration: none;
+}
+input {
+    outline: none;
+    border: none;
+}
+.row, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,
+.col-6{
+    /* margin-left: 0;
+    margin-right: 0; */
+    margin: 0;
+    padding: 0;
+}
+ul {
+    padding-left: 0rem;
+}
+hr{
+    margin: 0;
+}
+
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .head-for-desktop{
+        display: block;
+    }
+    .head-for-mobile{
+        display: none;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .head-for-desktop{
+        display: block;
+    }
+    .head-for-mobile{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .head-for-mobile{
+        display: block;
+    }
+    .head-for-desktop{
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .head-for-mobile{
+        display: block;
+    }
+    .head-for-desktop{
+        display: none;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .head-for-mobile{
+        display: block;
+    }
+    .head-for-desktop{
+        display: none;
+    }
+    img{
+        max-width: 100%;
+    }
+}
+select {
+
+    /* styling */
+    background-color: white;
+    border: thin solid blue;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+  
+    /* reset */
+  
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  select.minimal {
+    background-image: linear-gradient(45deg, transparent 50%, #072655 50%), linear-gradient(135deg, #072655 50%, transparent 50%);
+    background-position: calc(100% - 25px) calc(1em + 5px), calc(100% - 15px) calc(1em + 5px), calc(100% - 2.5em) 0.5em;
+    background-size: 10px 10px, 10px 10px, 1px 1.5em;
+    background-repeat: no-repeat;
+  }
+  
+  /* select.minimal:focus {
+    background-image:
+      linear-gradient(45deg, green 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, green 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      calc(100% - 2.5em) 0.5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
+  } */
+   

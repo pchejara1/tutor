@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering | M-Tutor </title>
+    <meta name="description" content="MTutor - Bringing education to you wherever you are">
+    <meta name="keywords" content="MTutor">
+
+    <!-- Favicons -->
+    <link href="assets/image/common/favicon.ico" rel="icon">
+    <link href="assets/image/common/favicon.ico" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+    <!--  Main CSS File -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/head-foot.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- slider css -->
+     <!-- slider links -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap-grid.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+     <!-- header starts  -->
+     <div id="mobileNav" class="overlay" onclick="closeNav()">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <div class="left-container ">
+                <div class="pad-20"></div>
+                <div class="logo-container">
+                    <a href="index.html"><img src="assets/image/common/logo.svg" alt="logo"></a>
+                </div>
+                <div class="pad-20"></div>
+                <div class="menu-item-container">
+                    <ul class="item-menu">
+                        <li><a href="index.html">
+                                <img src="assets/image/icon/mobile-nav-arrow.svg" alt="">&ensp; Home
+                            </a>
+                        </li>
+                        <li><a href="genesis.html">
+                                <img src="assets/image/icon/mobile-nav-arrow.svg" alt="">&ensp; About Us
+                            </a>
+                        </li>
+                        <li><a href="our-courses.html">
+                                <img src="assets/image/icon/mobile-nav-arrow.svg" alt="">&ensp; Courses
+                            </a>
+                        </li>
+                        <li><a href="thought.html">
+                                <img src="assets/image/icon/mobile-nav-arrow.svg" alt="">&ensp; Thoughts
+                            </a>
+                        </li>
+                        <li><a href="careers.html">
+                            <img src="assets/image/icon/mobile-nav-arrow.svg" alt="">&ensp; Career
+                        </a>
+                    </li>
+                        <li><a href="contact.html">
+                                <img src="assets/image/icon/mobile-nav-arrow.svg" alt="">&ensp; Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pad-10"></div>
+                <div class="mobile-btn-wrap">
+                    <a class="header-btn signin-btn" href="login.html">Login</a>
+                    <a class="header-btn signup-btn" href="register.html">Register</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <header class=" header-section head-for-mobile">
+        <div class="container">
+            <div class="mobile-header">
+                <a href="index.html"><img src="assets/image/common/logo.svg" alt=""></a>
+                <img src="assets/image/icon/menu.svg" class="" onclick="openNav()">
+            </div>
+        </div>
+    </header>
+    
+    <header class="header-section-light head-for-desktop header-home">
+        <div class="container">
+            <div class="row header-upper">
+                <div class="col-lg-2 logo-wrap">
+                    <a href="index.html">
+                        <img class="logo" src="assets/image/common/logo-light.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-7 nav-menu-wrap">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="genesis.html">About Us</a></li>
+                        <!-- <li><a href="why-mtutor.html">Why Mtutor</a></li> -->
+                        <li><a href="our-courses.html" class="active">Course</a></li>
+                        <li><a href="thought.html">Thoughts</a></li>
+                        <li><a href="careers.html">Career</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 btn-container">
+                    <a class="header-btn buy-now-btn" href="#">Buy Now</a>
+                    <a class="header-btn signin-btn" href="login.html">Login</a>
+                    <a class="header-btn signup-btn" href="register.html">Register</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header ends -->
+    <!-- hero section starts-->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="pad-20 hide-ls-tab hide-pt-tab hide-mobile"></div>
+                    <h5 class="supertext">100% Satisfaction Guarantee</h5>
+                    <div class="pad-10"></div>
+                    <div class="hero-heading-container">
+                        <h1 class="hero-heading">Stay Learned, <br class="hide-ls-tab">Stay Ahead</h1>
+                        <img class="hero-title-img1" src="assets/image/home/hero-title-img-1.svg" alt="">
+                        <img class="hero-title-img2 hide-ls-tab" src="assets/image/home/hero-title-img-2.svg" alt="">
+                    </div>
+                    <div class="pad-10"></div>
+                    <h2 class="subheading">The Learning Essentials Anywhere Anytime</h2>
+                    <p class="hero-title-description">Skilline is an interesting platform that will teach you in more an interactive way</p>
+                    <div class="hero-btn-container">
+                        <a href="#" class="hero-btn register-btn">Register Now &ensp;<img src="assets/image/icon/btn-arrow.svg" alt=""></a>
+                        <a href="#" class="hero-btn business-btn">For Business</a>
+                    </div>
+                </div>
+                <div class="col-lg-7 hero-right-half">
+                    <div class="hero-img-half">
+                        <img src="assets/image/home/hero-boy-img.png" alt="">
+                    </div>
+                    <div class="total-floating-elmt-division hide-mobile">
+                        <img src="assets/image/icon/green-student.svg" alt="">
+                        <p class="floating-elmt-text">Total Students</p>
+                        <p class="floating-elmt-number">15K</p>
+                    </div>
+                    <div class="total-graduation-floating-elmt-division">
+                        <img src="assets/image/icon/blue-graduation.svg" alt="">
+                        <p class="floating-elmt-text">Complete Graduation</p>
+                        <p class="floating-elmt-number">34K</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section ends-->
+    <!-- logo carousel section starts -->
+    <section class="logo-carousel-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="testimonial_slider_area text-center owl-carousel">
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/01.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/02.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/03.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/04.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/05.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/06.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/07.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/08.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/09.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/10.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/11.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/12png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/01.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/02.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/03.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/04.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/05.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/06.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/07.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/08.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/09.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/10.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/11.png" alt="">
+                            </div>
+                            <div class="university-logo-container">
+                                <img src="assets/image/university/12png" alt="">
+                            </div>
+
+
+
+
+
+
+                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- logo carousel section ends -->
+    <!-- about section starts -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 img-half">
+                    <img src="assets/image/home/about.png" alt="">
+    
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="supertext">Get To Know About Us</h2>
+                    <div class="pad-10"></div>
+                    <h1 class="section-title">Discover top <span>Instructions <img src="assets/image/other/heading-underline.svg" alt=""></span> Around the World</h1>
+                    <div class="pad-10"></div>
+                    <p class="section-description">Borem ipsum dolor sit amet, consectetur adipiscing eliawe awUt elit ellus, luctus nec ullamcorper mattisBorem ipsum dolor awes atnse
+                        awctetur adipis we followelit. Borem.</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="abt-feature-card">
+                                    <img src="assets/image/home/abt-expert.svg" alt="">
+                                    <div class="abt-feature-details">
+                                        <h4 class="abt-feature-number">2000+</h4>
+                                        <h4 class="abt-feature-text">Expert Tutors</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="abt-feature-card">
+                                    <img src="assets/image/home/abt-lesson.svg" alt="">
+                                    <div class="abt-feature-details">
+                                        <h4 class="abt-feature-number">1500+</h4>
+                                        <h4 class="abt-feature-text">Top Lessons</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="abt-feature-card">
+                                    <img src="assets/image/home/abt-student.svg" alt="">
+                                    <div class="abt-feature-details">
+                                        <h4 class="abt-feature-number">18000+</h4>
+                                        <h4 class="abt-feature-text">Over Students</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="abt-feature-card">
+                                    <img src="assets/image/home/abt-videos.svg" alt="">
+                                    <div class="abt-feature-details">
+                                        <h4 class="abt-feature-number">3200+</h4>
+                                        <h4 class="abt-feature-text">Pro Videos</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- about section ends -->
+     <!-- category section starts -->
+     <section class="category-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="supertext">Unique online courses</h2>
+                    <div class="pad-10"></div>
+                    <h1 class="section-title">Browse By <span>Categories <img src="assets/image/other/heading-underline.svg" alt=""></span></h1>
+                    <div class="pad-10"></div>
+                    <p class="section-description">Borem ipsum dolor sit amet, consectetur adipiscing eliawe
+                        awut elit ellus, luctus nec ullamcorper mattisBorem ipsum
+                        dolor awes atnse awctetur.</p>
+                        <div class="pad-20"></div>
+                        <a href="#" class="section-btn transparent-btn">All Categories</a>
+                        <div class="pad-20"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="category-card">
+                                <div class="category-img-circle">
+                                    <img src="assets/image/icon/cat-engineering.svg" alt="">
+                                </div>
+                                <h3 class="category-name">Engineering</h3>
+                                <p class="category-course-number">19 Courses</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="category-card">
+                                <div class="category-img-circle">
+                                    <img src="assets/image/icon/cat-science.svg" alt="">
+                                </div>
+                                <h3 class="category-name">Applied Science</h3>
+                                <p class="category-course-number">10 Courses</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="category-card">
+                                <div class="category-img-circle">
+                                    <img src="assets/image/icon/cat-skill.svg" alt="">
+                                </div>
+                                <h3 class="category-name">Skill Development</h3>
+                                <p class="category-course-number">08 Courses</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="category-card">
+                                <div class="category-img-circle">
+                                    <img src="assets/image/icon/cat-soft-skill.svg" alt="">
+                                </div>
+                                <h3 class="category-name">Soft Skills</h3>
+                                <p class="category-course-number">13 Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- category section ends -->
+    <!-- lms section starts -->
+    <section class="lms-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 img-half">
+                    <img src="assets/image/home/lms.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="supertext">About Us</h2>
+                    <div class="pad-10"></div>
+                    <h1 class="section-title">Welcome to the <span> <img src="assets/image/other/heading-pink-underline.svg" alt=""> Online </span>Learning Center</h1>
+                    <p class="section-yellow-description">Forging relationships between multi to national
+                        Governments and global NGOs begins.</p>
+                        <ul class="lms-listing">
+                            <li><img src="assets/image/icon/lms-listing.svg" alt="">&ensp; Explore a variety of fresh educational teach</li>
+                            <li><img src="assets/image/icon/lms-listing.svg" alt="">&ensp; Re-imagined interective video learning</li>
+                            <li><img src="assets/image/icon/lms-listing.svg" alt="">&ensp; True white level course platform</li>
+                        </ul>
+                        <div class="pad-20"></div>
+                        <a href="#" class="section-btn white-btn">Register</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- lms section ends -->
+    <!-- testimonial section starts -->
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="supertext">Course List</h2>
+                <div class="pad-10"></div>
+                <h1 class="section-title">Client <span> Testimonial <img src="assets/image/other/heading-underline.svg" alt=""></span></h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-client-container">
+                            <img src="assets/image/home/testimonial-client.png" alt="">
+                            <div class="name-designation-container">
+                                <h3 class="client-name">Mehendii Hassan</h3>
+                                <p class="client-designation">UI/UX Designer</p>
+                            </div>
+                        </div>
+                        <p class="client-statement">The other hand we denounce with righteou indg ation men who
+                            are so beguiled and demoraliz ed by the of the mo ment.Dislike
+                            men who are so beguiled and dems ed by the charms of pleas
+                            ure of the moment. Lorem</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-client-container">
+                            <img src="assets/image/home/testimonial-client.png" alt="">
+                            <div class="name-designation-container">
+                                <h3 class="client-name">John Berry</h3>
+                                <p class="client-designation">Developer</p>
+                            </div>
+                        </div>
+                        <p class="client-statement">The other hand we denounce with righteou indg ation men who
+                            are so beguiled and demoraliz ed by the of the mo ment.Dislike
+                            men who are so beguiled and dems ed by the charms of pleas
+                            ure of the moment. Lorem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial section ends -->
+    <!-- testimonial section starts -->
+    <section class="statistics-section">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="supertext">Get To Know About Us</h2>
+                <div class="pad-10"></div>
+                <h1 class="section-title">Number That <span> Matters <img src="assets/image/other/heading-underline.svg" alt=""></span></h1>
+                <!-- <div class="pad-10"></div> -->
+                <p class="statistics-section-text">M-tutor's Transformation is making headlines and positively impacting learners through our interactiveand collaborative approach, our numbers speak...</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="statistics-card">
+                        <div class="statistics-img-circle">
+                            <img src="assets/image/icon/stat-video.svg" alt="">
+                        </div>
+                        <div class="statistics-data-container">
+                            <h4 class="statistics-title">750 Academics</h4>
+                            <p class="statistics-description">With unlimited courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-6">
+                    <div class="statistics-card">
+                        <div class="statistics-img-circle">
+                            <img src="assets/image/icon/stat-user.svg" alt="">
+                        </div>
+                        <div class="statistics-data-container">
+                            <h4 class="statistics-title">1500+ Educators</h4>
+                            <p class="statistics-description">With unlimited courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-12">
+                    <div class="statistics-card">
+                        <div class="statistics-img-circle">
+                            <img src="assets/image/icon/stat-book.svg" alt="">
+                        </div>
+                        <div class="statistics-data-container">
+                            <h4 class="statistics-title">12000+ Colleges</h4>
+                            <p class="statistics-description">With unlimited courses</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial section ends -->
+
+    <!-- register section starts -->
+    <section class="register-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="supertext">Course List</h2>
+                    <div class="pad-10"></div>
+                    <h1 class="section-title">Register Your Name To Get free access to <span class="yellow-text"> 60000 <img src="assets/image/other/heading-pink-underline.svg" alt=""></span>online course</h1>
+                    <div class="register-section-description-container">
+                        <img src="assets/image/icon/pink-circle.svg" alt="">
+                        <h5>Learn Something new & Build Your Career
+                            From Anywhere In The World</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6 form-half">
+                    <div class="form-container">
+                        <div class="form-input-label-container">
+                            <label for="">Full Name</label>
+                            <div class="form-input-container">
+                                <img src="assets/image/icon/grey-user.svg" alt="">
+                                <input type="text" placeholder="Full name">
+                            </div>
+                        </div>
+                        <div class="form-input-label-container">
+                            <label for="">Phone Number</label>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="form-input-container">
+                                        <input type="text" value="IND +91" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="form-input-container">
+                                        <img src="assets/image/icon/grey-envelop.svg" alt="">
+                                        <input type="text" placeholder="Phone Number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-input-label-container">
+                            <label for="">Password</label>
+                            <div class="form-input-container">
+                                <img src="assets/image/icon/grey-lock.svg" alt="">
+                                <input type="text" placeholder="Password">
+                            </div>
+                            <p class="password-hint">Password must be within 5-10 alphanumeric characters(e.g: abc123, No special characters allowed)</p>
+                        </div>
+                        <div class="form-input-label-container">
+                            <input type="checkbox">
+                            <label for="">I agree to the <a href="#">Terms & Conditions</a></label>
+                        </div>
+                        <a href="#" class="form-btn">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- register section starts -->
+    <!-- empty section starts -->
+    <section class="empty-section hide-pt-tab hide-mobile">
+        <div class="container">
+            <div class="pad-70"></div>
+        </div>
+    </section>
+    <!-- empty section ends -->
+
+   
+
+    <!-- footer section starts -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <a href="index.html"><img src="assets/image/common/footer-logo.svg" alt=""></a>
+                    <p class="footer-about">Our outcome-based digital tutorials are bent on to elevate learners lives and build a better society, that is why MTutor sprouted into the world of learning.</p>
+                    <div class="pad-20"></div>
+                    <ul class="social-links-container">
+                        <li><a href="#" target="_blank"><img src="assets/image/icon/facebook.svg" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="assets/image/icon/twitter.svg" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="assets/image/icon/whasatpp.svg" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="assets/image/icon/linkedin.svg" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="assets/image/icon/youtube.svg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h2 class="footer-title">Resources</h2>
+                    <ul class="footer-link-listing">
+                        <li><a href="genesis.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Refund</a></li>
+                        <li><a href="#">Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h2 class="footer-title">Courses</h2>
+                    <ul class="footer-link-listing">
+                        <li><a href="engineering.html">Engineering</a></li>
+                        <li><a href="#">Applied Science</a></li>
+                        <li><a href="#">Skill Development</a></li>
+                        <li><a href="#">Agriculture</a></li>
+                        <li><a href="#">MSchool</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h2 class="footer-title">Download Now</h2>
+                    <div class="download-btn-container">
+                        <a href="#"><img src="assets/image/common/play-store.svg" alt=""></a>
+                        <a href="#"><img src="assets/image/common/app-store.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="copyright-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7">
+                    <p class="copyright-text">Copyright © 2023 MTUTOR. All rights reserved.</p>
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <ul class="copyright-menu">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+  
+
+
+
+
+    <!--  JS Files -->
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/script.js"></script>
+
+
+     <!-- Slider files  -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+     <script src="assets/js/slider.js"></script>
+</body>
+
+</html>
